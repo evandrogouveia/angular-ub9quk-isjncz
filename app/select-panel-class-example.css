@@ -1,0 +1,24 @@
+.example-panel-red.mat-select-panel {
+  background: rgba(255, 0, 0, 0.5);
+}
+
+.example-panel-green.mat-select-panel {
+  background: rgba(0, 255, 0, 0.5);
+}
+
+.example-panel-blue.mat-select-panel {
+  background: rgba(0, 0, 255, 0.5);
+}
+.example-panel-yellow.mat-select-panel {
+  background: yellow;
+}
+
+.font-size-24{
+  font-size: 24px;
+}
+.font-size-30{
+  font-size: 30px;
+}
+.font-size-60{
+  font-size: 60px;
+}

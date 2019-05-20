@@ -1,0 +1,24 @@
+<mat-form-field>
+	<mat-label>Panel color</mat-label>
+	<mat-select [formControl]="panelColor" panelClass="example-panel-{{panelColor.value}}">
+		<mat-option value="red">Red</mat-option>
+		<mat-option value="green">Green</mat-option>
+		<mat-option value="blue">Blue</mat-option>
+    <mat-option value="yellow">Yellow</mat-option>
+	</mat-select>
+</mat-form-field>
+
+<mat-form-field>
+	<mat-label>Panel font</mat-label>
+	<mat-select [formControl]="panelFontSize" panelClass="font-size-{{panelFontSize.value}}">
+		<mat-option value="24">Font 24</mat-option>
+		<mat-option value="30">Font 30</mat-option>
+		<mat-option value="60">Font 60</mat-option>
+	</mat-select>
+</mat-form-field>
+<p [ngStyle]="{'color' : panelColor.value, 'font-size' : panelFontSize.value + 'px' }" 
+>MUDAR AQUI</p>
+
+<!-- Copyright 2019 Google Inc. All Rights Reserved.
+    Use of this source code is governed by an MIT-style license that
+    can be found in the LICENSE file at http://angular.io/license -->
